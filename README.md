@@ -26,7 +26,7 @@ Primeiramente, alteramos o triângulo para o cubo, conforme no snippet abaixo:
         1.0f, 0.0f, 1.0f,  // Magenta
         0.0f, 1.0f, 1.0f,  // Ciano
         1.0f, 1.0f, 1.0f,  // Branco
-        0.5f, 0.5f, 0.5f   // Cinza
+        0.5f, 0.5f, 0.5f,   // Cinza
     };
 ```
 

@@ -2,6 +2,9 @@
     "files.associations": {
         "*.pl": "prolog",
         "*.json": "jsonc",
-        "glew.h": "c"
+        "glew.h": "c",
+        "sdl.h": "c",
+        "stdbool.h": "c",
+        "cglm.h": "c"
     }
 }

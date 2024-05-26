@@ -16,3 +16,4 @@ sudo apt-get install libsdl2-dev
 - https://www.youtube.com/watch?v=LxEFn-cGdE0
 - https://github.com/nigels-com/glew
 - https://github.com/recp/cglm
+- https://launchpad.net/ubuntu/+source/cglm

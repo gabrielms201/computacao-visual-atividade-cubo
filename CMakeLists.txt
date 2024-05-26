@@ -3,11 +3,13 @@ project(opengl_atividade VERSION 0.1.0 LANGUAGES C)
 
 include(CTest)
 enable_testing()
-add_executable(${PROJECT_NAME} hellogl.c)
+add_executable(${PROJECT_NAME} hellogl.c rotation.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 
+# Local files
+include_directories(${CMAKE_SOURCE_DIR})
 
 # Open GL
 find_package(OpenGL REQUIRED) # Add this line

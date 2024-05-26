@@ -8,7 +8,7 @@ typedef struct
     double rz;
 } rotation_weights;
 const int MAX_STEPS_FOR_RY_ROTATION = 365 + 20; // qUANTIDADE MÁXIMA; UMA VOLTA + 5 GRAUS
-const int STEP_INCREMENT_VALUE = 10;
+const int STEP_INCREMENT_VALUE = 2;
 bool rotate(
     int* steps,
     SDL_Window* window,

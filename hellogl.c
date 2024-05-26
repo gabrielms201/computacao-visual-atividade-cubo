@@ -160,67 +160,66 @@ int main(int argc, char* argv[])
 
     // Definição das cores dos vértices do cubo.
     GLfloat colors[] = {
-
-
-        // 1 Relacionado com o 4
+        // 1 Relacionado com o 5 OK
         0.0f, 1.0f, 0.0f,  // Verde 
-        0.0f, 1.0f, 0.0f,  // Verde
-        0.0f, 1.0f, 0.0f,  // Verde
-
-        // 2 Relacionado com o 4
         1.0f, 0.0f, 0.0f,  // Vermelho 
-        1.0f, 0.0f, 0.0f,  // Vermelho
-        1.0f, 0.0f, 0.0f,  // Vermelho
+        0.0f, 0.0f, 1.0f,  // Azul // test
 
-        // 3 Relacionado com 6
-        1.0f, 1.0f, 0.0f,  // Amarelo
-        1.0f, 1.0f, 0.0f,  // Amarelo
-        1.0f, 1.0f, 0.0f,  // Amarelo
-
-        // 4 Relacionado com o 2
-        1.0f, 0.0f, 0.0f,  // Vermelho
-        1.0f, 0.0f, 0.0f,  // Vermelho
-        1.0f, 0.0f, 0.0f,  // Vermelho
-
-        // 5 Relacionado com o 1
-        0.0f, 1.0f, 0.0f,  // Verde
-        0.0f, 1.0f, 0.0f,  // Verde
+        // 2 Relacionado com o 4 OK
         0.0f, 1.0f, 0.0f,  // Verde 
+        0.0f, 0.0f, 1.0f,  // Azul
+        1.0f, 0.0f, 0.0f,  // Vermelho 
 
-        // 6 relacionado com o 3
-        1.0f, 1.0f, 0.0f,  // Amarelo
-        1.0f, 1.0f, 0.0f,  // Amarelo
-        1.0f, 1.0f, 0.0f,  // Amarelo
+        // 3 Relacionado com 6 OK
+        0.0f, 1.0f, 0.0f,  // Verde 
+        0.0f, 0.0f, 1.0f,  // Azul
+        1.0f, 0.0f, 0.0f,  // Vermelho 
 
-        // 7 relacionado com o 12
-        1.0f, 1.0f, 1.0f,  // Branco
-        1.0f, 1.0f, 1.0f,  // Branco
-        1.0f, 1.0f, 1.0f,  // Branco
+        // 4 Relacionado com o 2 OK
+        0.0f, 1.0f, 0.0f,  // Verde 
+        1.0f, 0.0f, 0.0f,  // Vermelho 
+        0.0f, 0.0f, 1.0f,  // Azul 
+
+        // 5 Relacionado com o 1 OK
+        0.0f, 1.0f, 0.0f,  // Verde 
+        0.0f, 0.0f, 1.0f,  // Azul // test
+        1.0f, 0.0f, 0.0f,  // Vermelho 
+
+        // 6 relacionado com o 3 OK
+        0.0f, 1.0f, 0.0f,  // Verde 
+        1.0f, 0.0f, 0.0f,  // Vermelho 
+        0.0f, 0.0f, 1.0f,  // Azul // test
+
+        // 7 relacionado com o 12 OK
+        0.0f, 1.0f, 0.0f,  // Verde 
+        0.0f, 0.0f, 1.0f,  // Azul
+        1.0f, 0.0f, 0.0f,  // Vermelho 
 
         // 8 relacionado com o 9
-        1.0f, 0.0f, 1.0f,  // Magenta
-        1.0f, 0.0f, 1.0f,  // Magenta
-        1.0f, 0.0f, 1.0f,  // Magenta
+        0.0f, 1.0f, 0.0f,  // Verde 
+        0.0f, 0.0f, 1.0f,  // Azul
+        1.0f, 0.0f, 0.0f,  // Vermelho 
 
         // 9 relacionado com o 9
-        1.0f, 0.0f, 1.0f,  // Magenta
-        1.0f, 0.0f, 1.0f,  // Magenta
-        1.0f, 0.0f, 1.0f,  // Magenta
+        0.0f, 1.0f, 0.0f,  // Verde 
+        1.0f, 0.0f, 0.0f,  // Vermelho 
+        0.0f, 0.0f, 1.0f,  // Azul // test
 
         // 10 relacionado com o 11
-        0.0f, 1.0f, 1.0f,  // Ciano
-        0.0f, 1.0f, 1.0f,  // Ciano
-        0.0f, 1.0f, 1.0f,  // Ciano
+        0.0f, 1.0f, 0.0f,  // Verde 
+        1.0f, 0.0f, 0.0f,  // Vermelho 
+        0.0f, 0.0f, 1.0f,  // Azul // test
 
         // 11 relacionado com o 10
-        0.0f, 1.0f, 1.0f,  // Ciano
-        0.0f, 1.0f, 1.0f,  // Ciano
-        0.0f, 1.0f, 1.0f,  // Ciano
+        0.0f, 1.0f, 0.0f,  // Verde 
+        0.0f, 0.0f, 1.0f,  // Azul
+        1.0f, 0.0f, 0.0f,  // Vermelho 
         
         // 12 Relacionado com o 7
-        1.0f, 1.0f, 1.0f,  // Branco
-        1.0f, 1.0f, 1.0f,  // Branco
-        1.0f, 1.0f, 1.0f,  // Branco
+        0.0f, 1.0f, 0.0f,  // Verde 
+        1.0f, 0.0f, 0.0f,  // Vermelho 
+        0.0f, 0.0f, 1.0f,  // Azul // test
+
     };
 
     // Criação e configuração do Vertex Array Object (VAO).

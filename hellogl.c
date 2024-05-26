@@ -303,29 +303,25 @@ int main(int argc, char* argv[])
             if (event.type == SDL_QUIT)
             {
                 isRunning = false;
+                break;
             }
-            else if (event.type == SDL_MOUSEBUTTONDOWN)
-            {
-                // Rotacao Horizontal
-                while (!finished_horizontal)
-                {
-                    finished_horizontal = rotate_horizontal(&steps, window, VAO, u_MVPMatrix);
-                }
-                printf("Finalizado rotação horizontal\n");
+        }
+        // Rotacao Horizontal
+        if (!finished_horizontal)
+        {
+            finished_horizontal = rotate_horizontal(&steps, window, VAO, u_MVPMatrix);
+        }
 
-                // Rotacao Vertical
-                while (!finished_vertical)
-                {
-                    finished_vertical = rotate_vertical(&steps, window, VAO, u_MVPMatrix);
-                }
-                printf("Finalizado rotação vertical\n");
+        // Rotacao Vertical
+        if (finished_horizontal)
+        {
+            finished_vertical = rotate_vertical(&steps, window, VAO, u_MVPMatrix);
+        }
 
-                if (finished_horizontal && finished_vertical)
-                {
-                    finished_horizontal = false;
-                    finished_vertical = false;
-                }
-            }
+        if (finished_horizontal && finished_vertical)
+        {
+            finished_horizontal = false;
+            finished_vertical = false;
         }
 
         // Limpa o buffer (tela) com a cor preta.

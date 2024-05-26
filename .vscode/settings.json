@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.pl": "prolog",
+        "*.json": "jsonc",
+        "glew.h": "c"
+    }
+}

@@ -4,6 +4,13 @@
 #include <SDL2/SDL.h>   // Simple DirectMedia Layer.
 #include "cglm/cglm.h"  // OpenGL Mathematics (glm) for C.
 
+
+// Grupo:
+// # Caio Cezar Oliveira Filardi do Carmo - 10341128
+// # Gabriel Augusto Ribeiro Gomes	- 10389313
+// # Lucas Toneto Pires - 10338193
+// # Ricardo Gabriel Marques dos Santos Ruiz - 10389321
+
 // Código do vertex shader.
 const char *VERTEX_SHADER_CODE =
     "#version 330 core\n"
